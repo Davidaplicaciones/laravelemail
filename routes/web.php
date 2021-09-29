@@ -22,4 +22,4 @@ Route::get('/', function () {
 });
 
 //Ruta a la que está señalando el formulario de contacto
-Route::post('/contactar', 'App\Http\Controllers\EmailController')->name('contact');
+Route::post('/contactar', 'App\Http\Controllers\EmailController@contact')->name('contact');
